@@ -1,4 +1,4 @@
-import * as paymentDAO from '../dao/paymentDAO.js';
+import * as paymentDAO from '../dataAccess/paymentDAO.js';
 import { AppError } from '../utils/appError.js';
 const createPayment = async (req, res) => {
     const { amount, currency } = req.body;
